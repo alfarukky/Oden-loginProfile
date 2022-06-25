@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login page</title>
+    <link rel="stylesheet" href="css/main.css" />
+    
+
+    <section class=" grid grid--1x2">
+      <div class="background-img grid--template">
+        <div class="background">
+          <img class="background__logo" src="image/odin-lined.webp" />
+          <h1 class="background__header">ODIN</h1>
+        </div>
+    </div>
+    <div class="grid grid--2x1 grid--template block-field">
+        <div class="block-field__header">
+        <h3>This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams.
+            Sign up now to get started
+        </h3>
+       <h3>You know you want to.</h3>
+        </div>
+        <div class="form-group">
+          <h3>Let's do this!</h3>
+          <form class="grid grid--2x1__subgrid">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input class="input" id="first-name" type="text" />
+              <label for="last-name">LAST NAME</label>
+              <input class="input" id="last-name" type="text" required/>
+              <label for="email">EMAIL</label>
+              <input class="input" type="email" id="email required" />
+            </div>
+          
+            <div>
+              <label for="number">PHONE NUMBER</label>
+              <input class="input" type="text" id="number" min="0" max="11" />
+              <label for="password">PASSWORD</label>
+              <input class="input" id="password" type="password" required />
+              <label for="password">CONFIRM PASSWORD</label>
+              <input class="input" id="password" type="password" required />
+            </div>
+            <div class="form-group__submit">
+              <button type="submit" class="btn btn--green">Create Account</button>
+              <h4>Already have an account? <a class="form-group__link" href="#">Log in</a></h4>
+            </div>
+          </form>
+        </div>
+    </div>
+    </section>
+  </body>
+</html>
